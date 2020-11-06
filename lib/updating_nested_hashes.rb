@@ -1,5 +1,5 @@
 def update_status
-   epic_tragedy[:montague][:hero]
+   epic_tragedy[:montague][:hero][:status] = "dead"
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
          :matriarch => {name: "Lady Montague", age: "54"},
